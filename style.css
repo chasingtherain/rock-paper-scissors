@@ -39,6 +39,7 @@ body{
 
 .button-img,
 img{
+    padding: 15px;
     width: 100px;
 }
 
