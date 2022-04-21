@@ -5,9 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scissors, Paper, Stone!</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class ="main-content">
+        <h1 class="header">Defeat the Dragon!</h1>
+        <div class="profiles">
+            <div class="player-profile">
+                <img id="player-img" class="button-img" src="img/player.png">
+                <p class="main-text"><strong>Player HP</strong></p> 
+                <div class="player-hp">
+                    <div class="player-hp-bar"></div>
+                </div>
+
+            </div>
+            <div class="computer-profile">
+                <img id="computer-img" class="button-img" src="img/dragon.png">
+                <p class="main-text"> <strong>Dragon HP</strong></p>
+                <div class="computer-hp">
+                    <div class="computer-hp-bar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="choice">
+            <div>
+                <img id="player-choice">
+                <div class="player-score"></div>
+
+            </div>
+            <div>
+                <img id="computer-choice">
+                <div class="computer-score"></div>
+            </div>
+        </div>
+
+        <h2 id="game-announcer">Hero, choose your weapon!</h3>
+        <button id="retry">Retry</button>
+        <div class="buttons">
+            <button class="selection-button">
+                <img id="scissors" class="selection-img" src="img/scissors.png" value="scissors">
+            </button>
+            <button class="selection-button">
+                <img id="paper" class="selection-img" src="img/paper.png">
+            </button>
+            <button class="selection-button">
+                <img id="rock" class="selection-img" src="img/rock.png">
+            </button>
+        </div>
+    </div>
+    <footer class="copyright">
+        <p>Copyright © 2022 chasingtherain</p>
+    </footer>
 </body>
+
 </html>
